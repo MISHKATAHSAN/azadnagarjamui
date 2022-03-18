@@ -1,0 +1,69 @@
+*  {
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+body {
+    background-color: rgb(247, 188, 239);
+}
+
+.header {
+    background-color: #7fffd4;
+    padding: 2%;
+    padding-top: 0%;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto ;
+    outline: #4caf50 solid 10px;
+    outline-offset: 5%;
+          
+}
+.section {
+    text-align: center;
+    background-color: blueviolet;
+    transform: translate(20);
+    margin-top: -9px;
+}
+.names {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    overflow: scroll;
+    /* border: 5px crimson outset; */
+}
+.players_names {
+    display: flexbox;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    background-image:url(img/bg2.jpg) ;
+    border: 10px outset green;
+    font-weight: bolder;
+}
+.players_names2 {
+    display: flexbox;
+    /* flex-direction: row; */
+    /* background-image:url(img/bg1.jpg) ; */
+    border: 10px outset rgb(102, 172, 238);
+    font-weight: bold;
+    background-color: aqua;
+}
+.extra {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border: 10px chartreuse outset;
+}
+table,tr,td {
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+    border: 5px red;
+}
+.ground_title {
+    border: 5px #f82ef8;
+}
+.long_short {
+    border: 5px chocolate double;
+    background-color: rgb(140, 250, 250);
+}
+.g1 {
+    border: 5px #f82ef8 solid;
+}
